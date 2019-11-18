@@ -63,3 +63,10 @@ _A list of commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+### git-revert - Revert some existing commits
+
+| Command | Description |
+| ------- | ----------- |
+| `git revert [--[no-]edit] [-n] [-m parent-number] [-s] [-S[<keyid>]] <commit>` | Revert HEAD to <commit/hash/id> |
+
